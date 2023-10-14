@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="main-container">
+    <div id="container">
+      <h1>Enter your password</h1>
+      <div class="account">
+        <img src="https://i.pinimg.com/236x/61/d5/80/61d58074069bb69e05097bdea3b8b538.jpg" alt="Hollow Knight">
+        <div class="profile">
+          <p>Business Account</p>
+          <h2>Grimm's child</h2>
+        </div>
+      </div>
+      <div class="pass">
+        <p>Password</p>
+          <label for="inp-pass">
+            <img src="./img/lock.svg" alt="lock">
+            <input type="password" id="inp-pass">
+            <img src="./img/eye-off.svg" id="eye">
+          </label>
+      </div>
+      <div class="down">
+        <div>
+          <input type="checkbox" id="btn-switch">
+          <label for="btn-switch" class="lbl-switch"></label>
+          <span>Stay signed in</span> 
+        </div>
+        <button type="submit" id="send">Continue</button>
+      </div>
+      <a href="#" class="reset">Reset password</a>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
